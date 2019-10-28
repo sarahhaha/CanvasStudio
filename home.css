@@ -3,8 +3,6 @@ body {
   text-align: center;
   padding: 0px 100px;
   background-color: white;
-  min-width: 200px;
-  max-width: 800px;
 }
 .container{
   position: relative;
@@ -41,7 +39,7 @@ h1{
 
 .menu{
   display: inline;
-  font-size: 20px;
+  font-size: 20%;
   color: black;
   letter-spacing: 3px;
   padding:50px;
@@ -77,8 +75,6 @@ img{
   height: 400px;
   padding: 50px;
   border: 1px solid black;
-  min-width: 500px;
-  max-width:1500px;
 }
 #logo{
   width: 300px;
