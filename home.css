@@ -77,6 +77,8 @@ img{
   height: 400px;
   padding: 50px;
   border: 1px solid black;
+  min-width: 500px;
+  max-width:1500px;
 }
 #logo{
   width: 300px;
