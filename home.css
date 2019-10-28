@@ -39,7 +39,7 @@ h1{
 
 .menu{
   display: inline;
-  font-size: 20%;
+  font-size: 20px;
   color: black;
   letter-spacing: 3px;
   padding:50px;
@@ -71,9 +71,14 @@ a{
   padding: 10px;
 }
 img{
+  width: 80%;
+  height: 20%;
+  padding: 10%;
+  /*
   width: 1000px;
   height: 400px;
   padding: 50px;
+  */
   border: 1px solid black;
 }
 #logo{
