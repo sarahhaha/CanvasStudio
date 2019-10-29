@@ -4,9 +4,7 @@ body {
   padding: 0% 8%;
   background-color: white;
 }
-audio{
-  display: hidden;
-}
+
 .container{
   position: relative;
   width: 100%;
