@@ -68,3 +68,10 @@ a{
   text-decoration: none;
   padding: 10px;
 }
+
+.rotate {
+  transform: rotate(270deg);
+  margin-top: 8.5%;
+  margin-bottom: 8.5%;
+}
+
