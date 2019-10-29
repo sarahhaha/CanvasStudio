@@ -2,6 +2,7 @@ body{
   font-family: 'Poiret One', cursive;
   text-align: center;
   background-color: white;
+  padding-bottom: 6%;
 }
 
 #logo{
@@ -50,12 +51,41 @@ h1{
   font-size: 50px;
 }
 img{
-  width: 320px;
-  height: 440px;
-  padding: 100px 0px 100px 240px;
+  width: 30%;
+  height: 30%;
   float: left;
+  padding-left: 10%;
+  padding-top: 4%;
 }
 p{
-  font-size: 20px;
+  font-size: 120%;
+}
+.texts
+{
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
 
+.images
+{
+  padding-left:5%;
+  padding-right: 5%;
+  height: 100%;
+  width: 100%;
+}
+#image1{
+  padding-right: 30%;
+  padding-left: 30%;
+}
+#image2{
+  padding-right: 30%;
+  padding-left: 30%;
+}
+#image3{
+  padding-right: 30%;
+  padding-left: 30%;
+}
+#image4{
+  padding-right: 30%;
+  padding-left: 30%;
 }
