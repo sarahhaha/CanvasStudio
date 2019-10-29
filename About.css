@@ -1,0 +1,75 @@
+body {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  padding: 0px 100px;
+  background-color: white;
+}
+
+#logo {
+  width: 300px;
+  height: 70px;
+  padding: 60px;
+  border: none;
+}
+
+.menu {
+  display: inline;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 3px;
+  padding:50px;
+}
+
+footer {
+  font-size: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+ul:hover li a {
+  transform: scale(1.5);
+  opacity: 0.2;
+  filter: blur(5px);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#Members_and_Contact {
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+#box {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.1);
+}
+
+ul li a:hover {
+  transform: scale(2);
+  opacity: 1;
+  filter: blur(0);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
