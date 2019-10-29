@@ -16,6 +16,16 @@ img {
   height: 30%;
 }
 
+.left {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.right {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .title {
   font-family: "Times New Roman";
   font-size: 270%;
