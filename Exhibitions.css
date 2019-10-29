@@ -51,8 +51,11 @@ body {
   height: 70px;
   padding: 60px;
   border: none;
-  margin-left: 50%;
-  margin-right: 50%;
+  border-radius: 0px;
+  padding: 0px;
+  display: block;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 .menu{
