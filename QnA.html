@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <title>Q & A</title>
+
+    <link href="QnA.css" rel = "stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+
+    <div class = "container">
+
+      <div class = "section">
+        <a href = "index.html"><img id= "logo" src = "Canvasstudiologo.png" alt = "CanvasStudioLogo"></a>
+        <ul>
+          <li class = "menu"><a href = "index.html">Home</a></li>
+          <li class = "menu"><a href = "About.html">About</a></li>
+          <li class = "menu"><a href = "Exhibitions.html">Exhibitions</a></li>
+          <li class = "menu"><a href = "#">Volunteer Work</a></li>
+          <li class = "menu"><a href = "Shop.html">Shop</a></li>
+          <li class="menu"><a href = "QnA.html">Q&A</a></li>
+        </ul>
+        <br>
+
+        <h2>If you have any questions, ask away!</h2>
+        <div class="text">
+
+          <form action="/action_page.php" method="post" id="usrform">
+
+            <textarea id = "toCount" rows="10" cols="60" name="comment" form="usrform" onkeyup="manage(this)">Enter text here...</textarea>
+            <p>Words: <span id="wordCount"></span></p>
+            <input id="btSubmit" type="submit" value="Submit">
+          </form>
+
+        <script>
+
+        document.getElementById('toCount').addEventListener('input', function () {
+            var text = this.value;
+            var some =text.trim().replace(/\s+/g, ' ').split(' ');
+            var count = document.getElementById("toCount");
+            var num;
+            num  = (count.value == '')? 0 : count.value.split(' ').length;
+
+            //count = (text.trim().replace(/\s+/g, ' ').split(' ').length === )? 0 : text.trim().replace(/\s+/g, ' ').split(' ').length;
+            document.getElementById('wordCount').innerHTML = num;
+
+        });
+        function manage(txt) {
+            var bt = document.getElementById('btSubmit');
+             var words = (txt.value == '')? 0 : txt.value.split(' ').length;
+            if (words < 300) {
+                bt.disabled = false;
+            }
+            else {
+                bt.disabled = true;
+            }
+        };
+
+        </script>
+
+        </div>
+
+        <p>
+
+        </p>
+      </div>
+
+    </div>
+
+  </body>
+</html>

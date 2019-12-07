@@ -1,0 +1,48 @@
+body {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  padding: 0% 5%;
+  background-color: white;
+}
+
+#logo{
+  width: 300px;
+  height: 70px;
+  padding: 60px;
+  border: none;
+}
+
+.menu{
+  display: inline;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 3px;
+  padding:40px;
+  position: sticky;
+}
+ul li a
+{
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  transition: 0.5s;
+}
+ul:hover li a
+{
+  transform: scale(1.5);
+  opacity: 0.2;
+  filter: blur(5px);
+}
+
+ul li a:hover
+{
+  transform: scale(2);
+  opacity: 1;
+  filter: blur(0);
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
